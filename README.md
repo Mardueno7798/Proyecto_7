@@ -14,6 +14,4 @@ Abrir el enlace que proporciona Streamlit en el navegador para interactuar con l
 # Datos utilizados
 El dataset utilizado en esta aplicación se encuentra en el archivo Vehicles_us.csv, que contiene información sobre distintos modelos de vehículos en EE.UU., incluyendo precios, año del modelo y otras características relevantes.
 # URL de Render
-  Local URL: http://localhost:8501
-  Network URL: http://10.223.183.81:8501
-  External URL: http://34.213.214.55:8501
+https://proyecto-7-4fe2.onrender.com
