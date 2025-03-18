@@ -15,7 +15,7 @@ show_scatter = st.checkbox("Mostrar Gráfico de Dispersión (Año vs Precio)")
 # Si se selecciona el histograma
 if show_histogram:
     if "price" in car_data.columns:
-        fig_hist = px.histogram(car_data, x="price", nbins="auto", title="Distribución de Precios de Vehículos",
+        fig_hist = px.histogram(car_data, x="price", nbins=80, title="Distribución de Precios de Vehículos",
                                 labels={"price": "Precio (USD)"}, opacity=0.75)
         st.plotly_chart(fig_hist)
     else:
